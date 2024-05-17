@@ -1,4 +1,4 @@
-# Network-Security
+# Network-Security - Labs & Projects
 
 <html>
 	<body>
@@ -43,5 +43,53 @@
 	</body>
 </html>
 
-
+<html>
+	<body>
+		<h1>Configuring a VPN Server with pfSense</h1>
+			<h2>Overview</h2>
+				<p>
+				This lab was a practical demonstration of how theoretical knowledge can be applied to deploy and configure security measures for a networked environment.
+				By using a combination of theoretical concepts and practical tools, we were able to establish a robust defense system. The lab involved setting up virtual machines with various operating systems and implementing firewall rules, 
+				intrusion detection systems, and VPN configurations. These tasks were not just theoretical exercises but real-world scenarios aimed at enhancing the network's security posture and ensuring the integrity, confidentiality, and availability of the data transmitted across it.
+				</p>
+				<p>
+				The initial phase involved configuring the firewall using pfSense, an open-source firewall solution based on FreeBSD. I could control inbound and outbound traffic by creating specific firewall rules,
+				thereby restricting unauthorized access and mitigating potential threats. This involved setting up NAT (Network Address Translation) rules to map private IP addresses to public ones, essential for securing internal network traffic from external threats. 
+				Additionally, I configured port forwarding to allow specific services to be accessible from outside the network, ensuring that only necessary services were exposed while minimizing the attack surface.
+				</p>
+				<p>
+				Following the firewall configuration, the next step was to deploy an Intrusion Detection System (IDS) using Snort, a widely used open-source IDS tool. Installing Snort on a designated network segment allowed me to monitor and analyze network traffic for suspicious activities and potential intrusions. 
+				The IDS was configured with a set of predefined rules to detect common attack patterns, such as port scans, malware traffic, and exploitation attempts. This real-time monitoring and alerting mechanism enabled the early detection and response to potential security incidents, enhancing the overall network security.
+				</p>
+				<p>
+				The final aspect of the lab involved setting up a Virtual Private Network (VPN) to ensure secure remote access to the network. By configuring OpenVPN on pfSense, I established a secure encrypted tunnel between the remote user and the internal network.
+				This VPN setup allowed secure communication over untrusted networks, protecting sensitive data from eavesdropping and man-in-the-middle attacks. The configuration included generating cryptographic keys, setting up user authentication, and defining secure encryption protocols,
+				ensuring that only authorized users could access the network resources securely.
+				</p>
+				<p>
+				The lab provided hands-on experience with critical network security tools and techniques, reinforcing the theoretical concepts learned. By configuring firewalls, deploying intrusion detection systems, and setting up VPNs, I gained a comprehensive understanding of protecting and managing a secure network infrastructure.
+				This practical application of security measures demonstrated the importance of a multi-layered defense strategy in safeguarding network environments from a wide range of cyber threats.
+				</p>
+			<h2> Tools & Technologies Used</h2>
+				<p>
+				In Configuring a VPN Server with pfSense, a range of advanced tools and technologies were utilized to enhance the security of a networked environment. The focus was configuring firewalls, 
+				deploying intrusion detection systems, and setting up virtual private networks. These activities provided practical insights into securing network infrastructure against various cyber threats. Below is a detailed list of the tools and technologies and their technical summaries.
+				</p>
+				<ul>
+				<li><strong>pfSense:</strong>An open-source firewall and router software distribution based on FreeBSD. It includes many features, such as stateful packet filtering, VPN support, and traffic shaping. pfSense allows for granular control over network traffic by creating custom firewall rules and network address translation (NAT) settings. 
+				It is highly extensible with packages that can add additional security and networking capabilities.</li>
+				<li><strong>Snort:</strong>An open-source network intrusion detection system (IDS) is capable of real-time traffic analysis and packet logging. It uses a rule-driven language to perform protocol analysis, content searching, and various forms of attack detection. 
+				Snort can be configured to operate in multiple modes, such as sniffer, packet logger, and network intrusion detection, providing flexibility in managing and monitoring network security.</li>
+				<li><strong>OpenVPN:</strong>An open-source software application that implements virtual private network (VPN) techniques to create secure point-to-point or site-to-site connections. It uses custom security protocols to establish encrypted tunnels, ensuring secure data transmission over untrusted networks. OpenVPN supports various authentication methods,
+				including pre-shared keys, certificates, and username/password combinations, making it versatile for different security requirements.</li>
+				<li><strong>Virtual Machines (VMs):</strong>Software-based emulations of physical computers. They allow for the creation of isolated environments on a single physical host, enabling the deployment of multiple operating systems and applications for testing and development. In this lab, VMs were used to simulate different network nodes and services,
+				providing a controlled environment for implementing and testing security configurations.</li>
+				<li><strong>Windows Server 2019:</strong>A robust server operating system developed by Microsoft. It provides a comprehensive platform for network management, data storage, application hosting, and enterprise-level security. Features include advanced threat protection, hybrid cloud support, and extensive management tools for both on-premises and cloud-based environments.</li>
+				<li><strong>Ubuntu Linux:</strong>A popular open-source operating system based on Debian. It is known for its ease of use, stability, and security. Ubuntu provides a flexible platform for deploying various network services and security tools, making it suitable for server and desktop environments. It supports extensive networking capabilities and a wide range of security tools.</li>
+				</ul>
+				<p>
+				By leveraging these tools and technologies, the lab provided a practical and comprehensive approach to network security. Configuring firewalls, deploying intrusion detection systems, and setting up secure VPN connections were key activities that enhanced my understanding of protecting and managing secure network infrastructures.
+				</p>
+	</body>
+</html>
 

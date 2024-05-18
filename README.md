@@ -98,8 +98,8 @@
 	<h1>Developing A Zero-Trust Network Architecture</h1>
 		<h2>Overview</h2>
 			<p>
-			In the lab focused on developing a Zero Trust Network Architecture (ZTNA) proposal, I created a comprehensive security strategy for Genco, an international olive oil company. 
-			This involved a detailed review and application of several security frameworks, including the EU Cybersecurity Act, ISO 27001 standards, and the NIST Zero Trust Architecture. 
+			In the lab focused on developing a Zero-Trust Network Architecture (ZTNA) proposal, I created a comprehensive security strategy for Genco, an international olive oil company. 
+			This involved a detailed review and application of several security frameworks, including the EU Cybersecurity Act, ISO 27001 standards, and the NIST Zero-Trust Architecture. 
 			The proposal aimed to align Genco’s security posture with these frameworks to protect against sophisticated cyber threats and ensure compliance with relevant regulations.
 			</p>
 			<p>

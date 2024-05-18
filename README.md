@@ -109,11 +109,11 @@
 			</p>
 			<p>
 			Another crucial aspect of the proposal was network segmentation. This process involved dividing the network into isolated segments, a measure aimed at limiting lateral movement within the network. Doing so contained potential breaches and minimized the impact of any security incidents. 
-			To support this, I recommended updating network devices such as routers and servers to enable segmentation and Zero Trust capabilities. Additionally, I suggested continuous monitoring and analytics to maintain visibility over network traffic, enabling the detection of anomalies and potential threats in real-time.
+			To support this, I recommended updating network devices such as routers and servers to enable segmentation and Zero-Trust capabilities. Additionally, I suggested continuous monitoring and analytics to maintain visibility over network traffic, enabling the detection of anomalies and potential threats in real-time.
 			</p>
 			<p>
-			Finally, I emphasized the importance of securing data-in-transit and data-at-rest through encryption and advanced data protection mechanisms. This included recommending secure communication protocols and updating software to ensure compliance with Zero Trust standards. 
-			The proposal underscored the need for an ongoing commitment to cybersecurity through regular updates, employee training on security best practices, and adherence to the Zero Trust Maturity Model to achieve optimal security across all network dimensions. By adopting these measures,
+			Finally, I emphasized the importance of securing data-in-transit and data-at-rest through encryption and advanced data protection mechanisms. This included recommending secure communication protocols and updating software to ensure compliance with Zero-Trust standards. 
+			The proposal underscored the need for an ongoing commitment to cybersecurity through regular updates, employee training on security best practices, and adherence to the Zero-Trust Maturity Model to achieve optimal security across all network dimensions. By adopting these measures,
 			Genco could significantly enhance its defense against cyber threats and ensure robust protection for its digital assets.
 			</p>
 		<h2> Tools & Technologies Used</h2>
@@ -129,10 +129,10 @@
 			<li><strong>OpenVPN:</strong>It was Utilized in the lab to establish secure remote access to Genco’s network, ensuring encrypted communication channels in accordance with Zero Trust principles. This open-source VPN software created secure point-to-point or site-to-site connections through encrypted tunnels.
 			By supporting various authentication methods and robust encryption protocols, OpenVPN facilitated secure and authenticated remote access, protecting data-in-transit and meeting the stringent requirements of ISO 27001 for secure communication.</li>
 			<li><strong>Virtual Machines (VMs):</strong>They were integral to the lab, providing isolated environments for testing and implementing the Zero Trust Network Access configurations. These VMs simulated different network nodes and services, enabling a controlled setup to deploy and verify security measures.
-			The use of VMs ensured a flexible and scalable testing environment, essential for adhering to the NIST Zero Trust Architecture’s guidelines on network security testing and validation.</li>
+			The use of VMs ensured a flexible and scalable testing environment, essential for adhering to the NIST Zero-Trust Architecture’s guidelines on network security testing and validation.</li>
 			<li><strong>Windows Server 2019:</strong>It was employed in the lab to manage and secure Genco’s network infrastructure. This server operating system from Microsoft provided advanced features for network management, data storage, and application hosting. By leveraging its comprehensive administrative tools and advanced threat protection capabilities, 
 			the lab ensured the network configurations met the ISO 27001 standards for enterprise-level security and management.</li>
-			<li><strong>Ubuntu Linux:</strong>It was used in the lab to deploy various network services and security tools, supporting the Zero Trust Architecture framework’s focus on robust and secure network setups. Known for its stability and security, Ubuntu provided a reliable platform for implementing network security measures. 
+			<li><strong>Ubuntu Linux:</strong>It was used in the lab to deploy various network services and security tools, supporting the Zero-Trust Architecture framework’s focus on robust and secure network setups. Known for its stability and security, Ubuntu provided a reliable platform for implementing network security measures. 
 			The lab utilized Ubuntu’s extensive package repository and strong community support to ensure continuous updates and maintain a secure environment, in line with the EU Cybersecurity Act’s requirements for ongoing security management.</li>			
 			</ul>
 	<body>

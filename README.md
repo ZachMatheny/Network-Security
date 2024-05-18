@@ -118,11 +118,11 @@
 			</p>
 		<h2> Tools & Technologies Used</h2>
 			<p>
-			In the lab focused on developing a Zero Trust Network Access (ZTNA) proposal, a range of advanced tools and technologies were utilized to enhance Genco’s network security in line with the Zero Trust principles outlined by frameworks such as the EU Cybersecurity Act, ISO 27001, and NIST Zero Trust Architecture. 
+			In the lab focused on developing a Zero-Trust Network Architecture (ZTNA) proposal, a range of advanced tools and technologies were utilized to enhance Genco’s network security in accordance with the Zero-Trust principles outlined by frameworks such as the EU Cybersecurity Act, ISO 27001, and NIST Zero-Trust Architecture. 
 			Implementing these tools was crucial for ensuring comprehensive protection against cyber threats and compliance with industry standards. Below is a detailed list of the tools and technologies employed in the lab, directly linking their use to the lab’s objectives and frameworks.
 			</p>
 			<ul>
-			<li><strong>pfSense:</strong>The lab used pfSense as a core component for implementing network segmentation and firewall configurations in line with Zero Trust principles. Based on FreeBSD, this open-source firewall and router software distribution provided the necessary stateful packet filtering and network address translation (NAT) capabilities. 
+			<li><strong>pfSense:</strong>The lab used pfSense as a core component for implementing network segmentation and firewall configurations in line with Zero-Trust principles. Based on FreeBSD, this open-source firewall and router software distribution provided the necessary stateful packet filtering and network address translation (NAT) capabilities. 
 			By setting up custom firewall rules and secure VPNs, pfSense enabled granular control over network traffic and protected sensitive data in transit, aligning with ISO 27001 standards for network security.</li>
 			<li><strong>Snort:</strong>It was deployed to enhance Genco's network intrusion detection capabilities, directly supporting the NIST Zero Trust Architecture framework's emphasis on continuous monitoring and analysis. This open-source network intrusion detection system (IDS) provided real-time traffic analysis and packet logging.
 			By employing a rule-based language to identify and alert suspicious activities such as port scans and malware traffic, Snort ensured the network was monitored for potential threats, adhering to the EU Cybersecurity Act’s requirements for proactive threat detection.</li>
